@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title id="page-title">Famspot — Discover family events near you</title>
+  <meta id="meta-description" name="description" content="See what's happening for families nearby, shared from Famspot." />
+  <!-- Open Graph/Twitter tags give the link a proper preview card (image +
+       title + description) when pasted into iMessage, WhatsApp, Facebook,
+       etc. These are STATIC (same for every event) on purpose: link-preview
+       crawlers fetch the raw HTML and never run event.js, so per-event
+       values set there only help human visitors who actually open the page,
+       not the preview card itself. -->
+  <meta id="og-title" property="og:title" content="Famspot — Discover family events near you" />
+  <meta id="og-description" property="og:description" content="See what's happening for families nearby, shared from Famspot." />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Famspot" />
+  <meta property="og:image" content="https://famspotapp.github.io/event/og-image.png" />
+  <meta property="og:image:width" content="1024" />
+  <meta property="og:image:height" content="1024" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Famspot — Discover family events near you" />
+  <meta name="twitter:description" content="See what's happening for families nearby, shared from Famspot." />
+  <meta name="twitter:image" content="https://famspotapp.github.io/event/og-image.png" />
+  <link rel="icon" href="favicon.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="card">
+    <div class="logo-badge">🏡</div>
+    <h1>Famspot</h1>
+    <p class="tagline" id="event-title">Loading event…</p>
+    <p class="body" id="event-meta"></p>
+
+    <a class="cta" id="open-app-btn" href="#">Open in Famspot</a>
+    <a class="cta cta-secondary" href="coming-soon.html">Don't have the app? Get it here</a>
+
+    <p class="fine-print">If you have Famspot installed, this opens the event automatically.</p>
+  </main>
+
+  <script src="event.js"></script>
+</body>
+</html>
