@@ -115,7 +115,7 @@
 <main>
   <section id="terms">
     <h2>Terms of Service</h2>
-    <p class="updated">Last updated: September 30, 2026</p>
+    <p class="updated">Last updated: October 15, 2026</p>
 
     <article>
       <h3>1. Description of Service</h3>
@@ -129,7 +129,7 @@
 
     <article>
       <h3>3. User-Generated Content and Conduct</h3>
-      <p>Users are solely responsible for any events, text, descriptions, links, or media they post to Famspot ("User Content"). By posting content, you represent and warrant that you own or have permission to share the event details, the content is accurate, family-friendly, and not misleading, and that you will not post commercial spam, malicious links, fraudulent events, or offensive, harmful, or illegal material. Famspot has zero tolerance for objectionable content or abusive conduct of any kind, including harassment, hate speech, threats, sexually explicit material, or content that exploits or endangers minors.</p>
+      <p>Users are solely responsible for any events, text, descriptions, links, media, or comments they post to Famspot ("User Content"). By posting content, you represent and warrant that you own or have permission to share the event details, the content is accurate, family-friendly, and not misleading, and that you will not post commercial spam, malicious links, fraudulent events, or offensive, harmful, or illegal material. Comments on events are visible to other users; you may edit or delete your own comments at any time, and may report another user's comment directly to that event's host. Famspot has zero tolerance for objectionable content or abusive conduct of any kind, including harassment, hate speech, threats, sexually explicit material, or content that exploits or endangers minors.</p>
     </article>
 
     <article>
@@ -174,7 +174,7 @@
 
     <article>
       <h3>12. Third-Party Links and Services</h3>
-      <p>The App relies on third-party services to operate, including Google and Apple (sign-in) and Supabase (data hosting). Event listings may include third-party registration links provided by the poster, and the App may open third-party mapping services (e.g., to show directions to a venue) at your request. Famspot does not control and is not responsible for the content, accuracy, or practices of any third-party site or service you access through the App.</p>
+      <p>The App relies on third-party services to operate, including Google and Apple (sign-in), Supabase (data hosting), Expo's push notification service (delivering alerts like host live updates and "Going" reminders to your device), and OpenStreetMap/Nominatim (converting an event's posted address into map coordinates). Event listings may include third-party registration links provided by the poster, and the App may open third-party mapping services (e.g., to show directions to a venue) at your request. Famspot does not control and is not responsible for the content, accuracy, or practices of any third-party site or service you access through the App.</p>
     </article>
 
     <article>
@@ -195,13 +195,14 @@
 
   <section id="privacy">
     <h2>Privacy Policy</h2>
-    <p class="updated">Last updated: October 7, 2026</p>
+    <p class="updated">Last updated: October 15, 2026</p>
 
     <article>
       <h3>1. Information We Collect</h3>
       <p>• Account info: your name and email address, provided by Google or Apple when you sign in.
 • Location info: the ZIP code you enter (used to find nearby events); we do not collect precise GPS location.
-• Content you create: events you post (including whether you mark yourself as the host, shown as "Host-Posted"), upvotes, favorites, "Going" responses, and reports you submit.
+• Content you create: events you post (including whether you mark yourself as the host, shown as "Host-Posted"), comments you post on events, upvotes, favorites, "Going" responses, and reports you submit.
+• Device push notification token: if you enable notifications, we store a device token (via Expo's push notification service) so we can send you alerts you've opted into, such as "Going" reminders or live updates from a host you've subscribed to. You can disable this at any time in your device settings.
 • Feedback you submit: if you send us feedback, a bug report, or a coverage request through the App, we collect the message you write, the feedback type you select, and limited context about what you were doing at the time (e.g., your search filters or the event you were viewing).
 • Family age-group preferences (optional): general age-range tags you select for your household (e.g., "Toddlers," "Teens") to help us show more relevant events. We do not collect children's names, birthdates, or any other individual child information.
 • Basic usage data needed to operate the App (e.g., timestamps of your posts and votes).</p>
@@ -209,12 +210,12 @@
 
     <article>
       <h3>2. How We Use Your Information</h3>
-      <p>We use this information to show you relevant nearby events, let you post and manage your own events, track your favorites/upvotes/"Going" responses, and enforce community moderation (e.g., preventing duplicate reports or self-reporting). We use feedback you submit to triage issues, prioritize what we build next, and (for coverage requests) decide where to expand event coverage. If you have favorited or upvoted events, or set optional family age-group preferences, we may use that information to personalize the order events are shown to you (e.g., a "Recommended for You" sort). If you mark yourself as "Going" to an event, we show the event's host an aggregate count only (e.g., "5 going") — we never show your name or identity to the host or to other users. This is based only on your own activity within the App and does not involve advertising or sharing data with third parties.</p>
+      <p>We use this information to show you relevant nearby events, let you post and manage your own events and comments, track your favorites/upvotes/"Going" responses, send you notifications you've opted into, and enforce community moderation (e.g., preventing duplicate reports or self-reporting). We use feedback you submit to triage issues, prioritize what we build next, and (for coverage requests) decide where to expand event coverage. If you have favorited or upvoted events, or set optional family age-group preferences, we may use that information to personalize the order events are shown to you (e.g., a "Recommended for You" sort). If you mark yourself as "Going" to an event, we show the event's host an aggregate count only (e.g., "5 going") — we never show your name or identity to the host or to other users. For a limited set of approved hosts, we may show an aggregate, anonymized breakdown of interest by general area (e.g., city/state derived from ZIP code) — never an individual user's identity or exact location. This is based only on your own activity within the App and does not involve advertising or sharing data with third parties.</p>
     </article>
 
     <article>
       <h3>3. Who We Share Data With</h3>
-      <p>We use Supabase (database/authentication hosting) and Google or Apple (sign-in) as service providers to operate the App. We do not sell your personal data to third parties and do not use it for advertising.</p>
+      <p>We use Supabase (database/authentication hosting), Google or Apple (sign-in), Expo's push notification service (delivering alerts to your device), and OpenStreetMap/Nominatim (converting a posted event address into map coordinates) as service providers to operate the App. We do not sell your personal data to third parties and do not use it for advertising.</p>
     </article>
 
     <article>
@@ -229,7 +230,7 @@
 
     <article>
       <h3>6. Your Rights</h3>
-      <p>You may edit or delete any event you have posted at any time from the "My Posted Events" screen. You may un-favorite, un-upvote, or un-mark "Going" on events, and change your family age-group preferences, at any time. You may permanently delete your account and all associated data at any time from the Profile screen ("Delete Account"). Regardless of your location, you may also request to know what personal data we hold about you, request a copy of it, or request full account and data deletion, at any time, by contacting us at <a href="mailto:famspotapp5@gmail.com">famspotapp5@gmail.com</a>. We do not sell personal information and have not sold personal information in the preceding 12 months.</p>
+      <p>You may edit or delete any event or comment you have posted at any time. You may un-favorite, un-upvote, or un-mark "Going" on events, change your family age-group preferences, or turn off notifications, at any time. You may permanently delete your account and all associated data at any time from the Profile screen ("Delete Account"). Regardless of your location, you may also request to know what personal data we hold about you, request a copy of it, or request full account and data deletion, at any time, by contacting us at <a href="mailto:famspotapp5@gmail.com">famspotapp5@gmail.com</a>. We do not sell personal information and have not sold personal information in the preceding 12 months.</p>
     </article>
 
     <article>
