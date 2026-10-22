@@ -14,6 +14,10 @@
   document.getElementById('og-title').setAttribute('content', title);
   document.getElementById('og-description').setAttribute('content', venue || 'Shared from Famspot!');
 
+  var pageUrl = 'https://famspotapp.com/event/e.html' + (id ? '?id=' + encodeURIComponent(id) : '');
+  document.getElementById('og-url').setAttribute('content', pageUrl);
+  document.getElementById('canonical').setAttribute('href', pageUrl);
+
   var deepLink = id ? 'famspot://event/' + encodeURIComponent(id) : 'famspot://';
   var openBtn = document.getElementById('open-app-btn');
   openBtn.setAttribute('href', deepLink);

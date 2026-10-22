@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "7W64AYJZ5K.io.github.famspotapp.famspot",
+        "paths": ["/event/*"]
+      }
+    ]
+  }
+}

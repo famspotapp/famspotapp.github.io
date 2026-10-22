@@ -28,3 +28,14 @@ Apple/Google during app store submission.
 The same text also lives in the app at
 `Famspot/src/constants/legalContent.js` (shown in-app under Profile →
 "Privacy & Terms"). If you edit one, update the other so both stay identical.
+
+## Universal Links / App Links
+
+`.well-known/apple-app-site-association` and `.well-known/assetlinks.json`
+must be served from `https://famspotapp.com/.well-known/`. The empty
+`.nojekyll` file at the repo root makes GitHub Pages publish dot-folders.
+Replace `APPLE_TEAM_ID` and `REPLACE_WITH_RELEASE_SHA256` before relying on
+them. Content-Type: GitHub Pages serves the extensionless AASA file as
+`application/octet-stream` (Apple accepts this; no redirects allowed) and
+`assetlinks.json` as `application/json`. Verify with
+`curl -sI https://famspotapp.com/.well-known/apple-app-site-association`.

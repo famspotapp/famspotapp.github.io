@@ -1,0 +1,10 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.famspotapp.famspot",
+      "sha256_cert_fingerprints": ["6D:74:E9:E7:05:5E:5E:85:6D:B7:49:BF:25:43:5A:31:67:3A:8B:38:47:61:7C:84:28:55:F0:D8:FE:81:C1:17"]
+    }
+  }
+]
